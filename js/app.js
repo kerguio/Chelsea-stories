@@ -24,6 +24,7 @@ function geojson(features) {
           "fame": features[feature].Famous_for,
           "address": features[feature].Address,
           "hear": features[feature].hear_the_story,
+          "image": features[feature].url,
         }
       };
       geojson.features.push(plak);
