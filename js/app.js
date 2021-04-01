@@ -39,6 +39,7 @@ function onEachFeature(feature, layer) {
   var fame = feature.properties.fame;
   var address = feature.properties.address;
   var fame = feature.properties.fame;
+    var image = feature.properties.image;
   var lat = feature.geometry.coordinates[1];
   var lon = feature.geometry.coordinates[0];
   var url = "https://www.google.com/maps/dir/?api=1&destination=" + lat + "," + lon;
